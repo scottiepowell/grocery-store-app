@@ -1,4 +1,4 @@
-import app
+from .. import app
 
 def test_valid():
     assert app.valid('example@example.com', 'password') == True
